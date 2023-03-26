@@ -1,0 +1,23 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.grid-container img {
+  width: 100%;
+  height: auto;
+  transition:1s;
+}
+
+.grid-container img:hover{
+  transform:scale(1.1);
+}
+
+header{
+  font-size:80px;
+  background-color: #D3D3D3;
+  position: fixed;
+  width:100%;
+  top:0;
+}
