@@ -1,0 +1,18 @@
+img {
+    float: left;
+    margin-right: 10px; /* Adds some space between the image and text */
+    height:200px;
+  }
+  
+   p {
+    overflow: auto;
+    /* This will clear the float property and prevent layout issues */
+  }
+  
+  p{
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+  body{
+    background-color: #D3D3D3;
+  }

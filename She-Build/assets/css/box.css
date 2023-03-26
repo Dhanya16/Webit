@@ -1,0 +1,46 @@
+.para-in-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    border: 1px white;
+    padding: 4px;
+    margin: 20px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    color:#b44e4e;
+    font-size:30px;
+    font-style:oblique;
+} 
+@media (min-width: 768px) {
+    .inner-box {
+      width: 750px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .inner-box {
+      width: 970px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .inner-box {
+      width: 1170px;
+    }
+  }
+
+  .big-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    border: 1px white;
+    padding: 4px;
+    margin: 20px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    color:#b44e4e;
+    font-size:30px;
+    font-style:oblique;
+}
